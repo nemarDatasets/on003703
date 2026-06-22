@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Frequency Tagging of Syntactic Structure or Lexical Properties",
+  "description": "This dataset comprises magnetoencephalography (MEG) recordings investigating the neural correlates of syntactic structure and lexical properties using frequency tagging methodology. Participants were presented with linguistic stimuli while MEG signals were recorded to identify frequency-specific neural responses associated with different linguistic features. The dataset provides raw neurophysiological data suitable for studying language processing mechanisms at the neural level.",
+  "methods_description": "Data were collected using magnetoencephalographic (MEG) recording techniques with frequency tagging paradigms to investigate syntactic and lexical processing. The dataset is organized according to BIDS standards for electrophysiological data.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +11,39 @@
     "Anna Shestakova": {},
     "Nina Kazanina": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003703.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "syntax"
+    },
+    {
+      "term": "syntactic processing"
+    },
+    {
+      "term": "lexical processing"
+    },
+    {
+      "term": "Language",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007806"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "neural oscillations"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003703",
       "identifier_type": "URL",
@@ -34,6 +63,11 @@
       "identifier": "10.1038/sdata.2018.110",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003703.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -44,12 +78,12 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "208.8 GB (404 files)"
   ],
   "formats": [
     ".csv",
@@ -64,30 +98,5 @@
     ".tsv",
     ".yml"
   ],
-  "description": "This dataset comprises magnetoencephalographic (MEG) recordings investigating the neural mechanisms of syntactic structure and lexical property processing through frequency tagging methodology. The study employs frequency-tagging techniques to isolate neural responses to linguistic features, providing insights into the temporal dynamics of language comprehension at the neural level.",
-  "methods_description": "Data were collected using magnetoencephalographic (MEG) recording techniques with frequency tagging paradigms to investigate syntactic and lexical processing. The dataset is organized according to BIDS standards for electrophysiological data.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "frequency tagging"
-    },
-    {
-      "term": "syntactic structure"
-    },
-    {
-      "term": "lexical processing"
-    },
-    {
-      "term": "language comprehension"
-    },
-    {
-      "term": "neural oscillations"
-    },
-    {
-      "term": "BIDS"
-    }
-  ],
-  "source_hash": "19f10293e949158821d589e48ed169f04c97688217e9ddde6abcc1ee920321a2"
+  "source_hash": "28d79ff1f4084a3a4acbf5bf966e7408b72b7d2bc3d6fec7a67d4164d1e2b223"
 }
