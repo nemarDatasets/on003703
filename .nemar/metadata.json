@@ -1,34 +1,93 @@
 {
   "version": "2.0",
-  "dataset_id": "on003703",
-  "source": "openneuro",
-  "source_id": "ds003703",
+  "pipeline_stage": "validated",
   "title": "Frequency Tagging of Syntactic Structure or Lexical Properties",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Evgenii Kalenkovich": {},
     "Anna Shestakova": {},
     "Nina Kazanina": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003703.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003703",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003703",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/sdata.2018.110",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.4.0",
-  "recording_modality": [
-    "meg"
-  ],
-  "datatypes": [
-    "meg"
   ],
   "funding_references": [
     {
-      "funder_name": "The study has been funded by the International Laboratory for Social Neuroscience of the Institute for Cognitive Neuroscience HSE, RF Government grant # 075-15-2019-1930."
+      "funder_name": "RF Government",
+      "award_number": "075-15-2019-1930",
+      "award_title": "International Laboratory for Social Neuroscience of the Institute for Cognitive Neuroscience HSE"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "meg"
+  ],
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".fif",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".npy",
+    ".npz",
+    ".py",
+    ".rds",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises magnetoencephalographic (MEG) recordings investigating the neural mechanisms of syntactic structure and lexical property processing through frequency tagging methodology. The study employs frequency-tagging techniques to isolate neural responses to linguistic features, providing insights into the temporal dynamics of language comprehension at the neural level.",
+  "methods_description": "Data were collected using magnetoencephalographic (MEG) recording techniques with frequency tagging paradigms to investigate syntactic and lexical processing. The dataset is organized according to BIDS standards for electrophysiological data.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "syntactic structure"
+    },
+    {
+      "term": "lexical processing"
+    },
+    {
+      "term": "language comprehension"
+    },
+    {
+      "term": "neural oscillations"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "19f10293e949158821d589e48ed169f04c97688217e9ddde6abcc1ee920321a2"
 }
