@@ -1,5 +1,5 @@
 0515bd3f-80db-48f9-b61d-1bd9f7a44e7d root@openneuro-prod-dataset-worker-1:/datasets/ds003703 timestamp=1623986779.524885003s
-3c87e46f-173a-4990-b8b2-d1d0b5246df2 yahya@yahyas-mcm:/private/var/folders/yh/v431j0015bq2_32ydhg5kvnm0000gn/T/nemar-key-registration-tMtXCj/on003703 timestamp=1789403240s
+3c87e46f-173a-4990-b8b2-d1d0b5246df2 fleet-key-registration timestamp=1789403243s
 667855d4-3966-443b-bf19-c3eafacabaab runner@runnervm7b5n9:/tmp/nemar-import-on003703-Ubi9ye/on003703 timestamp=1782131474s
 89ede0d2-cd09-45cf-8a3f-3b12680d0a30 nemar-s3 timestamp=1782131479s
 a3dd79bd-6a35-46a8-8294-9b9280276461 runner@runnervm7b5n9:/tmp/nemar-finalize-on003703-EOwFHs/on003703-finalize timestamp=1782132571s
