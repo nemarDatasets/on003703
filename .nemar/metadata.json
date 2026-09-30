@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Frequency Tagging of Syntactic Structure or Lexical Properties",
-  "description": "This dataset comprises magnetoencephalography (MEG) recordings investigating the neural correlates of syntactic structure and lexical properties using frequency tagging methodology. Participants were presented with linguistic stimuli while MEG signals were recorded to identify frequency-specific neural responses associated with different linguistic features. The dataset provides raw neurophysiological data suitable for studying language processing mechanisms at the neural level.",
+  "description": "A magnetoencephalography (MEG) dataset from a frequency-tagging study of syntactic structure and lexical properties in language processing. The recordings are organized in BIDS format and are intended for investigating neural tracking of linguistic structure.",
   "methods_description": "Data were collected using magnetoencephalographic (MEG) recording techniques with frequency tagging paradigms to investigate syntactic and lexical processing. The dataset is organized according to BIDS standards for electrophysiological data.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -22,35 +22,17 @@
       "term": "syntax"
     },
     {
-      "term": "syntactic processing"
+      "term": "language processing"
     },
     {
-      "term": "lexical processing"
-    },
-    {
-      "term": "Language",
+      "term": "Magnetoencephalography",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007806"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "neural oscillations"
-    },
-    {
-      "term": "BIDS"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003703",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003703",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -68,6 +50,11 @@
       "identifier": "10.18112/openneuro.ds003703.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003703",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -83,7 +70,7 @@
     "meg"
   ],
   "sizes": [
-    "208.8 GB (404 files)"
+    "195 GB (404 files)"
   ],
   "formats": [
     ".csv",
